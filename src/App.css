@@ -8,9 +8,13 @@ main {
   flex: 1 0 auto;
 }
 
-.page-footer {
+footer {
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
+}
+
+footer > svg {
+  display: block;
 }

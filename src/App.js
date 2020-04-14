@@ -7,15 +7,19 @@ import './App.css';
 
 function App() {
   return (
-   <Fragment>
-     <header>
-     <Navbar />
-     </header>
-     <main>
-       <h4>Main Content</h4>
-     </main>
-     <Footer />
-   </Fragment>
+    <Router>
+      <Fragment>
+        <header>
+          <Navbar />
+        </header>
+        <Switch>
+        <main>
+          <h4>Main Content</h4>
+        </main>
+        </Switch>
+        <Footer />
+      </Fragment>
+    </Router>
   );
 }
 
