@@ -1,13 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Fragment } from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Navbar from './components/layout/Navbar';
+import Footer from './components/layout/Footer';
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Surface Monkey Landing Page</h1>
-      <p>Test production build for heroku webserver</p>
-    </div>
+   <Fragment>
+     <header>
+     <Navbar />
+     </header>
+     <main>
+       <h4>Main Content</h4>
+     </main>
+     <Footer />
+   </Fragment>
   );
 }
 
