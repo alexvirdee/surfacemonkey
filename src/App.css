@@ -9,7 +9,8 @@ body {
 .nav-logo {
   width: 72px;
   height: 48px;
-  margin: 10px 0px 0px 25px;
+  margin: 10px 0px 10px 25px;
+  padding-bottom: 5px;
 }
 
 .nav-list:hover {
@@ -71,6 +72,7 @@ footer > svg {
   z-index: -1;
 }
 
+
 @media only screen and (max-width: 720px) {
   .nav-logo {
     width: 48px;
@@ -79,5 +81,14 @@ footer > svg {
 
   .nav-mobile {
     color: #000;
+  }
+
+  .about-content {
+    padding-bottom: 50px;
+  }
+
+
+  footer > svg {
+    height: 20em;
   }
 }
