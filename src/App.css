@@ -8,11 +8,26 @@ body {
   width: 72px;
   height: 48px;
   margin: 10px 0px 0px 25px;
-  background-color: #fff;
+}
+
+.nav-list:hover {
+  background-color: #FF3649;
+}
+
+.nav-list .nav-link:hover {
+  color: #fff;
+}
+
+.nav-link {
+  color: #000;
 }
 
 main {
   flex: 1 0 auto;
+}
+
+.landing-content {
+  margin: 15px;
 }
 
 .about-content {
@@ -34,4 +49,15 @@ footer > div {
 footer > svg {
   display: block;
   z-index: -1;
+}
+
+@media only screen and (max-width: 720px) {
+  .nav-logo {
+    width: 48px;
+    height: 38px;
+  }
+
+  .nav-mobile {
+    color: #000;
+  }
 }

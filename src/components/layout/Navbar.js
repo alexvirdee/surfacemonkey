@@ -7,16 +7,15 @@ import logo from '../../images/monkey-logo.png';
 function Navbar(props) {
   return (
     <div>
-      <nav className="black">
-        <div class="nav-wrapper">
-          <Link to="/" class="brand-logo">
+      <nav className="white">
+        <div className="nav-wrapper">
+        <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
+          <Link to="/" className="brand-logo">
             <img className="nav-logo" alt="logo" src={logo}></img>
           </Link>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <ul id="nav-mobile" className="right hide-on-med-and-down nav-list">
             <li>
-                <Link to="/about">
-                    About
-                    </Link>
+              <Link className="nav-link" to="/about">About</Link>
             </li>
           </ul>
         </div>
