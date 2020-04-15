@@ -14,9 +14,9 @@ function App() {
         <header>
           <Navbar />
         </header>
-        <Route exact path="/" component={Landing} />
         <Switch>
         <main>
+        <Route exact path="/" component={Landing} />
           <Route exact path="/about" component={About} />
         </main>
         </Switch>

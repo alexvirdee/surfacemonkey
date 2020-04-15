@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 body {
   display: flex;
   min-height: 100vh;
@@ -34,6 +36,18 @@ main {
 
 .landing-content {
   margin: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+.site-title {
+  font-family: pacifico;
+}
+
+.ecommerce-btns {
+  margin-top: 15px;
 }
 
 .about-content {
