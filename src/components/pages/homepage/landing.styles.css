@@ -2,17 +2,6 @@
     font-family: pacifico;
   }
 
-  .ecommerce-btns {
-    margin-top: 15px;
-  }
-
-
-.store-btn {
-    padding-top: 2.5px;
-    margin-right: 18px;
-  }
-  
-
 .landing-content {
     margin: 15px;
     display: flex;
@@ -24,5 +13,5 @@
 .monkey-logo {
     padding-top: 5%;
     filter: invert(62%) sepia(9%) saturate(506%) hue-rotate(165deg) brightness(97%) contrast(94%);
-    margin: 50px;
+    margin: 45px;
 }
