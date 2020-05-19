@@ -4,6 +4,11 @@ import './product.styles.css';
 
 export const Product = () => (
     <div className="product-container">
-        <h3>PRODUCT</h3>
+        <div className="circle">Product</div>
+        <div className="circle">Product</div>
+        <div className="circle">Product</div>
+        <div className="circle">Product</div>
+        <div className="circle">Product</div>
+        <div className="circle">Product</div>
     </div>
 )

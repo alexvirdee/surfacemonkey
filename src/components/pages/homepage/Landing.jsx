@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import { ProductList } from '../../product-list/Product-list';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAmazon, faEbay } from '@fortawesome/free-brands-svg-icons';
 
@@ -13,9 +13,13 @@ function Landing(props) {
     <div className="landing-content">
       <div className="landing-header">
         <h3 className="site-title">Surface Monkey</h3>
+        <hr></hr>
         <h5>Discover Our Products</h5>
+        <div className="container">
         <div className="monkey-logo">
           <img alt="logo" src={Logo} />
+        </div>
+        <ProductList />
         </div>
         {/* <div className="ecommerce-btns">
         <a className="waves-effect waves-light btn-large store-btn black">
@@ -26,7 +30,6 @@ function Landing(props) {
         </a>
         </div> */}
       </div>
-      <section className="hero"></section>
     </div>
   );
 }
