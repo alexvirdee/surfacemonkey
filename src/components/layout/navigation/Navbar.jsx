@@ -3,7 +3,7 @@ import M from 'materialize-css';
 import "materialize-css/dist/css/materialize.min.css";
 import { Link } from 'react-router-dom';
 
-import './navbar.styles.css';
+import './navbar.styles.scss';
 
 import logo from '../../../images/method-draw-image.svg';
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './product.styles.css';
+import './product.styles.scss';
 
 export const Product = () => (
     <div className="product-container">
@@ -12,5 +12,5 @@ export const Product = () => (
         <div className="circle">Product</div>
         <div className="circle">Product</div>
      </div>
-    </div>
+   </div>
 )

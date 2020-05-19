@@ -3,7 +3,7 @@ import { ProductList } from '../../product-list/Product-list';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAmazon, faEbay } from '@fortawesome/free-brands-svg-icons';
 
-import './landing.styles.css';
+import './landing.styles.scss';
 
 import Logo from '../../../images/monkey-logo.png';
 

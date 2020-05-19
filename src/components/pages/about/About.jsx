@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import './about.styles.css';
+import './about.styles.scss';
 
 function About(props) {
   return (
