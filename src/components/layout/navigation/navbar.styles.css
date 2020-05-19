@@ -1,0 +1,19 @@
+.nav-logo {
+    width: 100px;
+    height: 65px;
+    margin: 10px 0px 10px 25px;
+    padding-bottom: 3.2px;
+  }
+  
+  .nav-list:hover {
+    background-color: #000;
+  }
+  
+  .nav-list .nav-link:hover {
+    color: #fff;
+  }
+  
+  .nav-link {
+    color: #000;
+  }
+  

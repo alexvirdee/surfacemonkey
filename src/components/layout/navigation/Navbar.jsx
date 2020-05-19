@@ -2,7 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
-import logo from '../../images/method-draw-image.svg';
+import './navbar.styles.css';
+
+import logo from '../../../images/method-draw-image.svg';
 
 function Navbar(props) {
   return (

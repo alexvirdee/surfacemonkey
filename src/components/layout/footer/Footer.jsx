@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import './footer.styles.css';
+
 function Footer(props) {
   return (
     <footer>

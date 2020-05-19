@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAmazon, faEbay } from '@fortawesome/free-brands-svg-icons';
 
+import './landing.styles.css';
+
 import Hero from '../../../images/epoxy-swirl.jpg';
 import Logo from '../../../images/monkey-logo.png';
 
