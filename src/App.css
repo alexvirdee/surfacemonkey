@@ -6,6 +6,10 @@ body {
   flex-direction: column;
 }
 
+main {
+  flex: 1 0 auto;
+}
+
 
 @media only screen and (max-width: 720px) {
   .nav-mobile {

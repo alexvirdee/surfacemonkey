@@ -16,8 +16,10 @@ class App extends React.Component {
             <Navbar />
           </header>
           <Switch>
+          <main>
           <Route exact path="/" component={Landing} />
             <Route exact path="/about" component={About} />
+          </main>
           </Switch>
           <Footer />
         </Fragment>
